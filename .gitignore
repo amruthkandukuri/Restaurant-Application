@@ -1,6 +1,16 @@
-node_modules
-dist
+# Node modules and build output
+node_modules/
+dist/
+
+# macOS system file
 .DS_Store
-server/public
+
+# Vite config backups or generated files
 vite.config.ts.*
 *.tar.gz
+
+# Server public assets (optional if built or uploaded dynamically)
+server/public/
+
+# Environment variables
+.env
